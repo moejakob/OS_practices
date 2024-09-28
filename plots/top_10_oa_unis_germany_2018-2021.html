@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_45d25edd1650a9a7ce16184f33771421 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_45d25edd1650a9a7ce16184f33771421" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_45d25edd1650a9a7ce16184f33771421 = L.map(
+                "map_45d25edd1650a9a7ce16184f33771421",
+                {
+                    center: [51.0, 10.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1459c7e1082b9d9c471970d0e7ea9355 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1459c7e1082b9d9c471970d0e7ea9355.addTo(map_45d25edd1650a9a7ce16184f33771421);
+        
+    
+            var marker_fc4b0166531b8bb2bea209c349026453 = L.marker(
+                [47.688748, 9.187242],
+                {}
+            ).addTo(map_45d25edd1650a9a7ce16184f33771421);
+        
+    
+        var popup_2cc696f720ba4aec7a7bc08aa10ae572 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_09d51558bf32b6a3ebcfb192cbcf5719 = $(`<div id="html_09d51558bf32b6a3ebcfb192cbcf5719" style="width: 100.0%; height: 100.0%;">University of Konstanz: 79.4 %</div>`)[0];
+                popup_2cc696f720ba4aec7a7bc08aa10ae572.setContent(html_09d51558bf32b6a3ebcfb192cbcf5719);
+            
+        
+
+        marker_fc4b0166531b8bb2bea209c349026453.bindPopup(popup_2cc696f720ba4aec7a7bc08aa10ae572)
+        ;
+
+        
+    
+    
+            var marker_330fa3b4318d450f0ddb4ced757ea48b = L.marker(
+                [52.3546374826138, 9.79783204049893],
+                {}
+            ).addTo(map_45d25edd1650a9a7ce16184f33771421);
+        
+    
+        var popup_f5e51401f6a4c15ea3558b06dc2a82c0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ffabd04b2a0d29e9148419bcdf5fcaeb = $(`<div id="html_ffabd04b2a0d29e9148419bcdf5fcaeb" style="width: 100.0%; height: 100.0%;">University of Veterinary Medicine Hannover, Foundation: 75.5 %</div>`)[0];
+                popup_f5e51401f6a4c15ea3558b06dc2a82c0.setContent(html_ffabd04b2a0d29e9148419bcdf5fcaeb);
+            
+        
+
+        marker_330fa3b4318d450f0ddb4ced757ea48b.bindPopup(popup_f5e51401f6a4c15ea3558b06dc2a82c0)
+        ;
+
+        
+    
+    
+            var marker_854675f807b14c5486179674b4780ccf = L.marker(
+                [48.3321974243598, 10.8957372268785],
+                {}
+            ).addTo(map_45d25edd1650a9a7ce16184f33771421);
+        
+    
+        var popup_3b9243de46c026b5610a8a901febb1ff = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8ab7c7be7d92f92a184a43eccd5e24c1 = $(`<div id="html_8ab7c7be7d92f92a184a43eccd5e24c1" style="width: 100.0%; height: 100.0%;">University of Augsburg: 75.3 %</div>`)[0];
+                popup_3b9243de46c026b5610a8a901febb1ff.setContent(html_8ab7c7be7d92f92a184a43eccd5e24c1);
+            
+        
+
+        marker_854675f807b14c5486179674b4780ccf.bindPopup(popup_3b9243de46c026b5610a8a901febb1ff)
+        ;
+
+        
+    
+    
+            var marker_2f3b1fab2dd4276baf3b5f389fb888ff = L.marker(
+                [49.419126, 8.670367],
+                {}
+            ).addTo(map_45d25edd1650a9a7ce16184f33771421);
+        
+    
+        var popup_42070e9e60b9317866f3f2fb28e41b1a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_aec35f0ecc55269a67837f92a3c39733 = $(`<div id="html_aec35f0ecc55269a67837f92a3c39733" style="width: 100.0%; height: 100.0%;">Heidelberg University: 74.9 %</div>`)[0];
+                popup_42070e9e60b9317866f3f2fb28e41b1a.setContent(html_aec35f0ecc55269a67837f92a3c39733);
+            
+        
+
+        marker_2f3b1fab2dd4276baf3b5f389fb888ff.bindPopup(popup_42070e9e60b9317866f3f2fb28e41b1a)
+        ;
+
+        
+    
+    
+            var marker_e80b6b5adb8d1750086873e166ac433f = L.marker(
+                [52.384177, 9.805814],
+                {}
+            ).addTo(map_45d25edd1650a9a7ce16184f33771421);
+        
+    
+        var popup_dccc5351acbee8d941bfac398de41492 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1da86a0193eadc1ecc0bfde9018dad9b = $(`<div id="html_1da86a0193eadc1ecc0bfde9018dad9b" style="width: 100.0%; height: 100.0%;">Hannover Medical School: 74.7 %</div>`)[0];
+                popup_dccc5351acbee8d941bfac398de41492.setContent(html_1da86a0193eadc1ecc0bfde9018dad9b);
+            
+        
+
+        marker_e80b6b5adb8d1750086873e166ac433f.bindPopup(popup_dccc5351acbee8d941bfac398de41492)
+        ;
+
+        
+    
+    
+            var marker_9481466513c56e9132b26c834a84a1ff = L.marker(
+                [52.517883, 13.393666],
+                {}
+            ).addTo(map_45d25edd1650a9a7ce16184f33771421);
+        
+    
+        var popup_2f15c0dae873539d10c1256724a25304 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_346eb0bac80ff3c791336b6c289835ff = $(`<div id="html_346eb0bac80ff3c791336b6c289835ff" style="width: 100.0%; height: 100.0%;">Humboldt-Universität zu Berlin: 74.2 %</div>`)[0];
+                popup_2f15c0dae873539d10c1256724a25304.setContent(html_346eb0bac80ff3c791336b6c289835ff);
+            
+        
+
+        marker_9481466513c56e9132b26c834a84a1ff.bindPopup(popup_2f15c0dae873539d10c1256724a25304)
+        ;
+
+        
+    
+    
+            var marker_f5ff255a203a102f1390ef8b82b1867a = L.marker(
+                [52.452533, 13.289636],
+                {}
+            ).addTo(map_45d25edd1650a9a7ce16184f33771421);
+        
+    
+        var popup_c442fbf16af2a8b20a020f3f0990e01f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c538f5b6fe4b6734edeb009cea5f7596 = $(`<div id="html_c538f5b6fe4b6734edeb009cea5f7596" style="width: 100.0%; height: 100.0%;">Freie Universität Berlin: 73.3 %</div>`)[0];
+                popup_c442fbf16af2a8b20a020f3f0990e01f.setContent(html_c538f5b6fe4b6734edeb009cea5f7596);
+            
+        
+
+        marker_f5ff255a203a102f1390ef8b82b1867a.bindPopup(popup_c442fbf16af2a8b20a020f3f0990e01f)
+        ;
+
+        
+    
+    
+            var marker_e6d7f241b0be4dc9d8a5d3a8e63ef0ae = L.marker(
+                [48.150875, 11.581044],
+                {}
+            ).addTo(map_45d25edd1650a9a7ce16184f33771421);
+        
+    
+        var popup_cbc082d513fb2c6feabbedd9ac01d327 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ff33c7f8f8be5698f3f547d93889f4a2 = $(`<div id="html_ff33c7f8f8be5698f3f547d93889f4a2" style="width: 100.0%; height: 100.0%;">Ludwig-Maximilians-Universität München: 72.3 %</div>`)[0];
+                popup_cbc082d513fb2c6feabbedd9ac01d327.setContent(html_ff33c7f8f8be5698f3f547d93889f4a2);
+            
+        
+
+        marker_e6d7f241b0be4dc9d8a5d3a8e63ef0ae.bindPopup(popup_cbc082d513fb2c6feabbedd9ac01d327)
+        ;
+
+        
+    
+    
+            var marker_a0bce234a6ba9a62770f7ef85e7afcd4 = L.marker(
+                [50.726758, 7.086587],
+                {}
+            ).addTo(map_45d25edd1650a9a7ce16184f33771421);
+        
+    
+        var popup_c6b81e6f48e8ab43559a3c582a0cd598 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_71f7181bba3b5157cf8ebcbd35f6aeca = $(`<div id="html_71f7181bba3b5157cf8ebcbd35f6aeca" style="width: 100.0%; height: 100.0%;">University of Bonn: 72.0 %</div>`)[0];
+                popup_c6b81e6f48e8ab43559a3c582a0cd598.setContent(html_71f7181bba3b5157cf8ebcbd35f6aeca);
+            
+        
+
+        marker_a0bce234a6ba9a62770f7ef85e7afcd4.bindPopup(popup_c6b81e6f48e8ab43559a3c582a0cd598)
+        ;
+
+        
+    
+    
+            var marker_d58d85b4403d35121203b518dca04c5a = L.marker(
+                [51.19685, 6.790688],
+                {}
+            ).addTo(map_45d25edd1650a9a7ce16184f33771421);
+        
+    
+        var popup_0e076ea1d9beae8a8bdac89f5640a13a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d975b8c446638dc92a1a80ab1b08a3ab = $(`<div id="html_d975b8c446638dc92a1a80ab1b08a3ab" style="width: 100.0%; height: 100.0%;">Heinrich Heine University Düsseldorf: 71.5 %</div>`)[0];
+                popup_0e076ea1d9beae8a8bdac89f5640a13a.setContent(html_d975b8c446638dc92a1a80ab1b08a3ab);
+            
+        
+
+        marker_d58d85b4403d35121203b518dca04c5a.bindPopup(popup_0e076ea1d9beae8a8bdac89f5640a13a)
+        ;
+
+        
+    
+</script>
+</html>

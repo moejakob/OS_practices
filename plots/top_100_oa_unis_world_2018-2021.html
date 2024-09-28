@@ -1,0 +1,2183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_09e4a0c4a76406cbf4c4c6608c0b9dfd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_09e4a0c4a76406cbf4c4c6608c0b9dfd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_09e4a0c4a76406cbf4c4c6608c0b9dfd = L.map(
+                "map_09e4a0c4a76406cbf4c4c6608c0b9dfd",
+                {
+                    center: [45.0, -30.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1356c319a5662e5cb13e8ee649596bcc = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1356c319a5662e5cb13e8ee649596bcc.addTo(map_09e4a0c4a76406cbf4c4c6608c0b9dfd);
+        
+    
+            var marker_cluster_dd33976839433baf5cab5d58cd33af9d = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_8beaeb2daa8facce19b9f6ec1b2c4b72 = L.marker(
+                [53.219308, 6.562976],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_fbb9a61766d5a3937f16bd28c4de29b7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3507673a520beab5fea31773314766a8 = $(`<div id="html_3507673a520beab5fea31773314766a8" style="width: 100.0%; height: 100.0%;">University of Groningen: 96.4 %</div>`)[0];
+                popup_fbb9a61766d5a3937f16bd28c4de29b7.setContent(html_3507673a520beab5fea31773314766a8);
+            
+        
+
+        marker_8beaeb2daa8facce19b9f6ec1b2c4b72.bindPopup(popup_fbb9a61766d5a3937f16bd28c4de29b7)
+        ;
+
+        
+    
+    
+            var marker_65c58c5fc94a7bbcaeb348f17742fdd2 = L.marker(
+                [51.520621, -0.130063],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_caad7f17ddad6ea33b6600b64f73027c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8552123dcbc599cb8fc59ebbf1ab48a8 = $(`<div id="html_8552123dcbc599cb8fc59ebbf1ab48a8" style="width: 100.0%; height: 100.0%;">London School of Hygiene & Tropical Medicine: 94.4 %</div>`)[0];
+                popup_caad7f17ddad6ea33b6600b64f73027c.setContent(html_8552123dcbc599cb8fc59ebbf1ab48a8);
+            
+        
+
+        marker_65c58c5fc94a7bbcaeb348f17742fdd2.bindPopup(popup_caad7f17ddad6ea33b6600b64f73027c)
+        ;
+
+        
+    
+    
+            var marker_11ac71571cbd7a852df2277539a59531 = L.marker(
+                [55.862157, -4.24369],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_7f91d5d0dadd8673979ba419561ea6cf = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_37355aa25c6f2ca0ec04a1bbc453d72e = $(`<div id="html_37355aa25c6f2ca0ec04a1bbc453d72e" style="width: 100.0%; height: 100.0%;">University of Strathclyde: 91.7 %</div>`)[0];
+                popup_7f91d5d0dadd8673979ba419561ea6cf.setContent(html_37355aa25c6f2ca0ec04a1bbc453d72e);
+            
+        
+
+        marker_11ac71571cbd7a852df2277539a59531.bindPopup(popup_7f91d5d0dadd8673979ba419561ea6cf)
+        ;
+
+        
+    
+    
+            var marker_dbff2ebdfcf688d55adca93a3b7ae0c2 = L.marker(
+                [56.458257, -2.982186],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_1fdbd208e92664a8030bbc34087bf9fd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_44899cc08e8597e6a5edb307ca2466cc = $(`<div id="html_44899cc08e8597e6a5edb307ca2466cc" style="width: 100.0%; height: 100.0%;">University of Dundee: 91.6 %</div>`)[0];
+                popup_1fdbd208e92664a8030bbc34087bf9fd.setContent(html_44899cc08e8597e6a5edb307ca2466cc);
+            
+        
+
+        marker_dbff2ebdfcf688d55adca93a3b7ae0c2.bindPopup(popup_1fdbd208e92664a8030bbc34087bf9fd)
+        ;
+
+        
+    
+    
+            var marker_ba697e28904300aaa11e65c604a78597 = L.marker(
+                [52.621948, 1.23908],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_6b0a456d064418b468909fa9bff87d5a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ccb36c33f90eb3120279c6c6dd6cabb4 = $(`<div id="html_ccb36c33f90eb3120279c6c6dd6cabb4" style="width: 100.0%; height: 100.0%;">University of East Anglia: 91.1 %</div>`)[0];
+                popup_6b0a456d064418b468909fa9bff87d5a.setContent(html_ccb36c33f90eb3120279c6c6dd6cabb4);
+            
+        
+
+        marker_ba697e28904300aaa11e65c604a78597.bindPopup(popup_6b0a456d064418b468909fa9bff87d5a)
+        ;
+
+        
+    
+    
+            var marker_394fb2c670fdc402fe32745493c3282d = L.marker(
+                [56.341687, -2.792763],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_c414357dd25b5829327510e4252cc991 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9d2e50cb2c1bab610b98394d70a66696 = $(`<div id="html_9d2e50cb2c1bab610b98394d70a66696" style="width: 100.0%; height: 100.0%;">University of St Andrews: 90.9 %</div>`)[0];
+                popup_c414357dd25b5829327510e4252cc991.setContent(html_9d2e50cb2c1bab610b98394d70a66696);
+            
+        
+
+        marker_394fb2c670fdc402fe32745493c3282d.bindPopup(popup_c414357dd25b5829327510e4252cc991)
+        ;
+
+        
+    
+    
+            var marker_c15e1027a8760cc3f8e5fbc0da6e46e1 = L.marker(
+                [54.765004, -1.57831],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_9bd99e12f978f58037fe9d230778e1de = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ef4dd1290d3a2898cc75abdf42a22a7b = $(`<div id="html_ef4dd1290d3a2898cc75abdf42a22a7b" style="width: 100.0%; height: 100.0%;">Durham University: 90.8 %</div>`)[0];
+                popup_9bd99e12f978f58037fe9d230778e1de.setContent(html_ef4dd1290d3a2898cc75abdf42a22a7b);
+            
+        
+
+        marker_c15e1027a8760cc3f8e5fbc0da6e46e1.bindPopup(popup_9bd99e12f978f58037fe9d230778e1de)
+        ;
+
+        
+    
+    
+            var marker_0490c3b81b8083115c1ec50a2387ae5e = L.marker(
+                [56.1455, -3.9195],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_bea0f820bea877aff29d6ec59d442c73 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4edb90220394bb2f80ffc060984c9622 = $(`<div id="html_4edb90220394bb2f80ffc060984c9622" style="width: 100.0%; height: 100.0%;">University of Stirling: 90.8 %</div>`)[0];
+                popup_bea0f820bea877aff29d6ec59d442c73.setContent(html_4edb90220394bb2f80ffc060984c9622);
+            
+        
+
+        marker_0490c3b81b8083115c1ec50a2387ae5e.bindPopup(popup_bea0f820bea877aff29d6ec59d442c73)
+        ;
+
+        
+    
+    
+            var marker_14555878213098dd251e0cefbe3df310 = L.marker(
+                [51.441461, -0.941944],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_079061a752097f051c9fc64ba53fc527 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_42a82fb99dfa9161e998116d080b1898 = $(`<div id="html_42a82fb99dfa9161e998116d080b1898" style="width: 100.0%; height: 100.0%;">University of Reading: 90.5 %</div>`)[0];
+                popup_079061a752097f051c9fc64ba53fc527.setContent(html_42a82fb99dfa9161e998116d080b1898);
+            
+        
+
+        marker_14555878213098dd251e0cefbe3df310.bindPopup(popup_079061a752097f051c9fc64ba53fc527)
+        ;
+
+        
+    
+    
+            var marker_1aa6d597d0898d188c905f34c0bd03fa = L.marker(
+                [52.241079, 6.852438],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_e107661b96c0d12f32c36e50a210d478 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4203dabee3d66a8a0bab8c2cc4826069 = $(`<div id="html_4203dabee3d66a8a0bab8c2cc4826069" style="width: 100.0%; height: 100.0%;">University of Twente: 90.5 %</div>`)[0];
+                popup_e107661b96c0d12f32c36e50a210d478.setContent(html_4203dabee3d66a8a0bab8c2cc4826069);
+            
+        
+
+        marker_1aa6d597d0898d188c905f34c0bd03fa.bindPopup(popup_e107661b96c0d12f32c36e50a210d478)
+        ;
+
+        
+    
+    
+            var marker_f612d5fd2c914289b077efade882c392 = L.marker(
+                [55.872133, -4.288361],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_52fb9e8e863fd44db5ada62741b5290e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ca5efc589d534105ef085987f0b7095a = $(`<div id="html_ca5efc589d534105ef085987f0b7095a" style="width: 100.0%; height: 100.0%;">University of Glasgow: 90.3 %</div>`)[0];
+                popup_52fb9e8e863fd44db5ada62741b5290e.setContent(html_ca5efc589d534105ef085987f0b7095a);
+            
+        
+
+        marker_f612d5fd2c914289b077efade882c392.bindPopup(popup_52fb9e8e863fd44db5ada62741b5290e)
+        ;
+
+        
+    
+    
+            var marker_744874a46dd72796cd9862e99b8e0db1 = L.marker(
+                [51.528053, -0.101626],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_c5b0e339c9e9893a5c1ab5e98f97e759 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fb26f2ebf195f1384afe987a9cd5da45 = $(`<div id="html_fb26f2ebf195f1384afe987a9cd5da45" style="width: 100.0%; height: 100.0%;">City, University London: 90.3 %</div>`)[0];
+                popup_c5b0e339c9e9893a5c1ab5e98f97e759.setContent(html_fb26f2ebf195f1384afe987a9cd5da45);
+            
+        
+
+        marker_744874a46dd72796cd9862e99b8e0db1.bindPopup(popup_c5b0e339c9e9893a5c1ab5e98f97e759)
+        ;
+
+        
+    
+    
+            var marker_8b8860fea648b5aab9ae34b84623d3c3 = L.marker(
+                [50.7436377232382, -1.89813229586212],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_e35637914f64ca82588e48838b802725 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_39519a365e2be3c8449f2686c64402c4 = $(`<div id="html_39519a365e2be3c8449f2686c64402c4" style="width: 100.0%; height: 100.0%;">Bournemouth University: 90.2 %</div>`)[0];
+                popup_e35637914f64ca82588e48838b802725.setContent(html_39519a365e2be3c8449f2686c64402c4);
+            
+        
+
+        marker_8b8860fea648b5aab9ae34b84623d3c3.bindPopup(popup_e35637914f64ca82588e48838b802725)
+        ;
+
+        
+    
+    
+            var marker_519096729ee0d1f02c4d8482793d4bad = L.marker(
+                [52.074474, -0.629396],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_097ff23c2cf2c41f569dcf36ffebcf84 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1bdc8e2f6a3d52c9d8e302ebc0eda7d2 = $(`<div id="html_1bdc8e2f6a3d52c9d8e302ebc0eda7d2" style="width: 100.0%; height: 100.0%;">Cranfield University: 90.0 %</div>`)[0];
+                popup_097ff23c2cf2c41f569dcf36ffebcf84.setContent(html_1bdc8e2f6a3d52c9d8e302ebc0eda7d2);
+            
+        
+
+        marker_519096729ee0d1f02c4d8482793d4bad.bindPopup(popup_097ff23c2cf2c41f569dcf36ffebcf84)
+        ;
+
+        
+    
+    
+            var marker_ecaa78382429abbcfe996a81037fb1f8 = L.marker(
+                [53.3785113766653, -1.46635084914206],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_02089cf54663766eb54d86b3632f3cd3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8723382d71f1cdb6ffeda77331844c74 = $(`<div id="html_8723382d71f1cdb6ffeda77331844c74" style="width: 100.0%; height: 100.0%;">Sheffield Hallam University: 90.0 %</div>`)[0];
+                popup_02089cf54663766eb54d86b3632f3cd3.setContent(html_8723382d71f1cdb6ffeda77331844c74);
+            
+        
+
+        marker_ecaa78382429abbcfe996a81037fb1f8.bindPopup(popup_02089cf54663766eb54d86b3632f3cd3)
+        ;
+
+        
+    
+    
+            var marker_2a234320dedfa6777a2dc7e90cff905c = L.marker(
+                [52.9581241537337, -1.15424343009384],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_823d428cde54ba3305238656505493dd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bc52740df8faecd5e010b860970fa62d = $(`<div id="html_bc52740df8faecd5e010b860970fa62d" style="width: 100.0%; height: 100.0%;">Nottingham Trent University: 89.7 %</div>`)[0];
+                popup_823d428cde54ba3305238656505493dd.setContent(html_bc52740df8faecd5e010b860970fa62d);
+            
+        
+
+        marker_2a234320dedfa6777a2dc7e90cff905c.bindPopup(popup_823d428cde54ba3305238656505493dd)
+        ;
+
+        
+    
+    
+            var marker_6cd084baaa4ed51b5e086c8ce0b0960a = L.marker(
+                [50.935762, -1.396735],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_0526acd86268685455fccaea73df6d42 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_af64c52157b5dacc9449c085cb790f6c = $(`<div id="html_af64c52157b5dacc9449c085cb790f6c" style="width: 100.0%; height: 100.0%;">University of Southampton: 89.6 %</div>`)[0];
+                popup_0526acd86268685455fccaea73df6d42.setContent(html_af64c52157b5dacc9449c085cb790f6c);
+            
+        
+
+        marker_6cd084baaa4ed51b5e086c8ce0b0960a.bindPopup(popup_0526acd86268685455fccaea73df6d42)
+        ;
+
+        
+    
+    
+            var marker_93274a1e65779035a403699c8def536f = L.marker(
+                [53.403, -2.97],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_36a82869da329384c31b5b227b632d9f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ee637af93892b9fa1fac909b0f725bcf = $(`<div id="html_ee637af93892b9fa1fac909b0f725bcf" style="width: 100.0%; height: 100.0%;">Liverpool John Moores University: 89.4 %</div>`)[0];
+                popup_36a82869da329384c31b5b227b632d9f.setContent(html_ee637af93892b9fa1fac909b0f725bcf);
+            
+        
+
+        marker_93274a1e65779035a403699c8def536f.bindPopup(popup_36a82869da329384c31b5b227b632d9f)
+        ;
+
+        
+    
+    
+            var marker_05acd4939ef9dbfc4187cd898b1aef69 = L.marker(
+                [54.0104, -2.787783],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_786fe70271f18f863e22c9bdd57aa886 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d28b0df877b08d5bd05bdfe78468ecdf = $(`<div id="html_d28b0df877b08d5bd05bdfe78468ecdf" style="width: 100.0%; height: 100.0%;">Lancaster University: 89.4 %</div>`)[0];
+                popup_786fe70271f18f863e22c9bdd57aa886.setContent(html_d28b0df877b08d5bd05bdfe78468ecdf);
+            
+        
+
+        marker_05acd4939ef9dbfc4187cd898b1aef69.bindPopup(popup_786fe70271f18f863e22c9bdd57aa886)
+        ;
+
+        
+    
+    
+            var marker_5da3da82abe59ef26c8b993916232c87 = L.marker(
+                [39.874722, 32.747564],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_6034568869d9f6623b6c5c3064269577 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ef7b8e534c0d45aa62c59b76dcf0271a = $(`<div id="html_ef7b8e534c0d45aa62c59b76dcf0271a" style="width: 100.0%; height: 100.0%;">Bilkent University: 89.3 %</div>`)[0];
+                popup_6034568869d9f6623b6c5c3064269577.setContent(html_ef7b8e534c0d45aa62c59b76dcf0271a);
+            
+        
+
+        marker_5da3da82abe59ef26c8b993916232c87.bindPopup(popup_6034568869d9f6623b6c5c3064269577)
+        ;
+
+        
+    
+    
+            var marker_88cdad024bf0b5816a22a3dceaa61656 = L.marker(
+                [12.5896642887667, 37.4442172397018],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_9231cf28828a0bd2f8c2c2272067f7e0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_80fb7b7af45e2d6680b1a1db871aeba4 = $(`<div id="html_80fb7b7af45e2d6680b1a1db871aeba4" style="width: 100.0%; height: 100.0%;">University of Gondar: 89.3 %</div>`)[0];
+                popup_9231cf28828a0bd2f8c2c2272067f7e0.setContent(html_80fb7b7af45e2d6680b1a1db871aeba4);
+            
+        
+
+        marker_88cdad024bf0b5816a22a3dceaa61656.bindPopup(popup_9231cf28828a0bd2f8c2c2272067f7e0)
+        ;
+
+        
+    
+    
+            var marker_c689829120b3f831c9b841e4e6bf7229 = L.marker(
+                [53.806719, -1.555204],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_0b3884d996aa475324eaece3b0ebdb3e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_15604b00e443cba03965f6b176cda986 = $(`<div id="html_15604b00e443cba03965f6b176cda986" style="width: 100.0%; height: 100.0%;">University of Leeds: 89.2 %</div>`)[0];
+                popup_0b3884d996aa475324eaece3b0ebdb3e.setContent(html_15604b00e443cba03965f6b176cda986);
+            
+        
+
+        marker_c689829120b3f831c9b841e4e6bf7229.bindPopup(popup_0b3884d996aa475324eaece3b0ebdb3e)
+        ;
+
+        
+    
+    
+            var marker_ec3a0970346daf9308beec758bb68ec8 = L.marker(
+                [51.37781, -2.326421],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_e47eca880bef83152645dfa0b36180b0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_25c6dd6ed84f2f0ca754a466274526ff = $(`<div id="html_25c6dd6ed84f2f0ca754a466274526ff" style="width: 100.0%; height: 100.0%;">University of Bath: 89.2 %</div>`)[0];
+                popup_e47eca880bef83152645dfa0b36180b0.setContent(html_25c6dd6ed84f2f0ca754a466274526ff);
+            
+        
+
+        marker_ec3a0970346daf9308beec758bb68ec8.bindPopup(popup_e47eca880bef83152645dfa0b36180b0)
+        ;
+
+        
+    
+    
+            var marker_18c36b3850bbecd8cd935b2f539e6094 = L.marker(
+                [51.458444, -2.603033],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_f3aa4f5ee49e127b4c1fb85260d788d1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9820a0c4fa5000e97b5ad3bcdedd5232 = $(`<div id="html_9820a0c4fa5000e97b5ad3bcdedd5232" style="width: 100.0%; height: 100.0%;">University of Bristol: 89.1 %</div>`)[0];
+                popup_f3aa4f5ee49e127b4c1fb85260d788d1.setContent(html_9820a0c4fa5000e97b5ad3bcdedd5232);
+            
+        
+
+        marker_18c36b3850bbecd8cd935b2f539e6094.bindPopup(popup_f3aa4f5ee49e127b4c1fb85260d788d1)
+        ;
+
+        
+    
+    
+            var marker_08f7ea6069cda03aeddc28e971cdb6e5 = L.marker(
+                [55.944522, -3.189327],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_a2fab23707eed50db2cfada70f932591 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a9f1efb4919d48f9aca8515f381cc2d4 = $(`<div id="html_a9f1efb4919d48f9aca8515f381cc2d4" style="width: 100.0%; height: 100.0%;">The University of Edinburgh: 89.0 %</div>`)[0];
+                popup_a2fab23707eed50db2cfada70f932591.setContent(html_a9f1efb4919d48f9aca8515f381cc2d4);
+            
+        
+
+        marker_08f7ea6069cda03aeddc28e971cdb6e5.bindPopup(popup_a2fab23707eed50db2cfada70f932591)
+        ;
+
+        
+    
+    
+            var marker_36e84d25191a761edd1abafcad526f5c = L.marker(
+                [51.298617, 1.071602],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_702db75f30a04fc6c9bfd2769fc8acd5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_234be1a0a9392ad8a7da86e962bf2563 = $(`<div id="html_234be1a0a9392ad8a7da86e962bf2563" style="width: 100.0%; height: 100.0%;">University of Kent: 89.0 %</div>`)[0];
+                popup_702db75f30a04fc6c9bfd2769fc8acd5.setContent(html_234be1a0a9392ad8a7da86e962bf2563);
+            
+        
+
+        marker_36e84d25191a761edd1abafcad526f5c.bindPopup(popup_702db75f30a04fc6c9bfd2769fc8acd5)
+        ;
+
+        
+    
+    
+            var marker_9db83a20ec2d12da5dc9bdcdb7a4faf6 = L.marker(
+                [50.793802, -1.097466],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_91d3973c63d20681d728413872fae7be = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_cf27574dc2bfd2ce2662d1b7b6217790 = $(`<div id="html_cf27574dc2bfd2ce2662d1b7b6217790" style="width: 100.0%; height: 100.0%;">University of Portsmouth: 88.8 %</div>`)[0];
+                popup_91d3973c63d20681d728413872fae7be.setContent(html_cf27574dc2bfd2ce2662d1b7b6217790);
+            
+        
+
+        marker_9db83a20ec2d12da5dc9bdcdb7a4faf6.bindPopup(popup_91d3973c63d20681d728413872fae7be)
+        ;
+
+        
+    
+    
+            var marker_f630d303500bc867d9148469c72d5e60 = L.marker(
+                [53.471157, -2.237482],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_6ab152979ac747ab6511da4dcda90b34 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b62f00e4f62790b902a55159eaad57d4 = $(`<div id="html_b62f00e4f62790b902a55159eaad57d4" style="width: 100.0%; height: 100.0%;">Manchester Metropolitan University: 88.7 %</div>`)[0];
+                popup_6ab152979ac747ab6511da4dcda90b34.setContent(html_b62f00e4f62790b902a55159eaad57d4);
+            
+        
+
+        marker_f630d303500bc867d9148469c72d5e60.bindPopup(popup_6ab152979ac747ab6511da4dcda90b34)
+        ;
+
+        
+    
+    
+            var marker_7c1b825f1e7d640dd048d6ff78031a00 = L.marker(
+                [52.769246, -1.224675],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_b3988764ce1fc6f2a0caee9ba894ec17 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_73f161695ecfe7e9f8df93b8c02e39da = $(`<div id="html_73f161695ecfe7e9f8df93b8c02e39da" style="width: 100.0%; height: 100.0%;">Loughborough University: 88.5 %</div>`)[0];
+                popup_b3988764ce1fc6f2a0caee9ba894ec17.setContent(html_73f161695ecfe7e9f8df93b8c02e39da);
+            
+        
+
+        marker_7c1b825f1e7d640dd048d6ff78031a00.bindPopup(popup_b3988764ce1fc6f2a0caee9ba894ec17)
+        ;
+
+        
+    
+    
+            var marker_d710f25b9e32a406a8b9c4b9b54ca26e = L.marker(
+                [52.025, -0.705556],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_d0373bff5c277767fa568d51042509bb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_76973592f8781b939aaf718a359a9c29 = $(`<div id="html_76973592f8781b939aaf718a359a9c29" style="width: 100.0%; height: 100.0%;">The Open University: 88.5 %</div>`)[0];
+                popup_d0373bff5c277767fa568d51042509bb.setContent(html_76973592f8781b939aaf718a359a9c29);
+            
+        
+
+        marker_d710f25b9e32a406a8b9c4b9b54ca26e.bindPopup(popup_d0373bff5c277767fa568d51042509bb)
+        ;
+
+        
+    
+    
+            var marker_e02bff2a524ecaf8c32a19a28462e2df = L.marker(
+                [51.486654, -3.178832],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_5e73872d9d56e61e8380a8b9f152dd87 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6832d89eb06923f457f2fdf1c8cde968 = $(`<div id="html_6832d89eb06923f457f2fdf1c8cde968" style="width: 100.0%; height: 100.0%;">Cardiff University: 88.4 %</div>`)[0];
+                popup_5e73872d9d56e61e8380a8b9f152dd87.setContent(html_6832d89eb06923f457f2fdf1c8cde968);
+            
+        
+
+        marker_e02bff2a524ecaf8c32a19a28462e2df.bindPopup(popup_5e73872d9d56e61e8380a8b9f152dd87)
+        ;
+
+        
+    
+    
+            var marker_74a08461dfba9d77a930f8d8729e2c2f = L.marker(
+                [41.388361, 2.147655],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_e5e09caca40f36be24652b80df1d2575 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_00d09a1b3744d2eb416c4be90826a870 = $(`<div id="html_00d09a1b3744d2eb416c4be90826a870" style="width: 100.0%; height: 100.0%;">Universitat Politècnica de Catalunya, BarcelonaTech: 88.3 %</div>`)[0];
+                popup_e5e09caca40f36be24652b80df1d2575.setContent(html_00d09a1b3744d2eb416c4be90826a870);
+            
+        
+
+        marker_74a08461dfba9d77a930f8d8729e2c2f.bindPopup(popup_e5e09caca40f36be24652b80df1d2575)
+        ;
+
+        
+    
+    
+            var marker_ec49798a18aee94e8d7bb4587d1d7408 = L.marker(
+                [53.64324, -1.77837],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_9c589aa4b97bca3534ea562ae332e48a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d7995be53e0cf52c9153afdc44826276 = $(`<div id="html_d7995be53e0cf52c9153afdc44826276" style="width: 100.0%; height: 100.0%;">University of Huddersfield: 88.1 %</div>`)[0];
+                popup_9c589aa4b97bca3534ea562ae332e48a.setContent(html_d7995be53e0cf52c9153afdc44826276);
+            
+        
+
+        marker_ec49798a18aee94e8d7bb4587d1d7408.bindPopup(popup_9c589aa4b97bca3534ea562ae332e48a)
+        ;
+
+        
+    
+    
+            var marker_b341a9b280f3249316d8dbc357810d2b = L.marker(
+                [51.607725, -3.978611],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_f33a9ea9b2c59a81271a9d9fd16c1ac6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8bdf61b96b65d1930237634a6125ac09 = $(`<div id="html_8bdf61b96b65d1930237634a6125ac09" style="width: 100.0%; height: 100.0%;">Swansea University: 88.0 %</div>`)[0];
+                popup_f33a9ea9b2c59a81271a9d9fd16c1ac6.setContent(html_8bdf61b96b65d1930237634a6125ac09);
+            
+        
+
+        marker_b341a9b280f3249316d8dbc357810d2b.bindPopup(popup_f33a9ea9b2c59a81271a9d9fd16c1ac6)
+        ;
+
+        
+    
+    
+            var marker_be8e0c669fa8ab7fffeec8b7657fd8eb = L.marker(
+                [54.976762, -1.607498],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_d639b697062bb02baf02daeeb34fd5c5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8027450b9e6defe54368cb8a5b9a99ee = $(`<div id="html_8027450b9e6defe54368cb8a5b9a99ee" style="width: 100.0%; height: 100.0%;">Northumbria University: 87.7 %</div>`)[0];
+                popup_d639b697062bb02baf02daeeb34fd5c5.setContent(html_8027450b9e6defe54368cb8a5b9a99ee);
+            
+        
+
+        marker_be8e0c669fa8ab7fffeec8b7657fd8eb.bindPopup(popup_d639b697062bb02baf02daeeb34fd5c5)
+        ;
+
+        
+    
+    
+            var marker_7e69cfeed1a839da39d5c4bae86cc940 = L.marker(
+                [69.679803, 18.971227],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_0400f53f90bca7867be4ae0454f920bd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9c3e7490650d33973c6827bb7a34670f = $(`<div id="html_9c3e7490650d33973c6827bb7a34670f" style="width: 100.0%; height: 100.0%;">UiT The Arctic University of Norway: 87.7 %</div>`)[0];
+                popup_0400f53f90bca7867be4ae0454f920bd.setContent(html_9c3e7490650d33973c6827bb7a34670f);
+            
+        
+
+        marker_7e69cfeed1a839da39d5c4bae86cc940.bindPopup(popup_0400f53f90bca7867be4ae0454f920bd)
+        ;
+
+        
+    
+    
+            var marker_1efab1af105f6f3cc45aef4da1e00ca3 = L.marker(
+                [53.2289, -4.1301],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_856bd96d1bf34e6a15c59316ba22bc53 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_acf7933928a81706a07b69665c3291aa = $(`<div id="html_acf7933928a81706a07b69665c3291aa" style="width: 100.0%; height: 100.0%;">Bangor University: 87.7 %</div>`)[0];
+                popup_856bd96d1bf34e6a15c59316ba22bc53.setContent(html_acf7933928a81706a07b69665c3291aa);
+            
+        
+
+        marker_1efab1af105f6f3cc45aef4da1e00ca3.bindPopup(popup_856bd96d1bf34e6a15c59316ba22bc53)
+        ;
+
+        
+    
+    
+            var marker_7c06159c531c4b23260ec9bc29ca22ce = L.marker(
+                [52.157162, 4.4852],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_71f9d352fc696e9477686c8387f0ac1f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_416df3f559f3036c540e302d2ea69b05 = $(`<div id="html_416df3f559f3036c540e302d2ea69b05" style="width: 100.0%; height: 100.0%;">Leiden University: 87.6 %</div>`)[0];
+                popup_71f9d352fc696e9477686c8387f0ac1f.setContent(html_416df3f559f3036c540e302d2ea69b05);
+            
+        
+
+        marker_7c06159c531c4b23260ec9bc29ca22ce.bindPopup(popup_71f9d352fc696e9477686c8387f0ac1f)
+        ;
+
+        
+    
+    
+            var marker_4d8cc12783fd334b72c4ea72bfc19b5a = L.marker(
+                [53.945546, -1.05621],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_b979e12a49317c29c76230974e9a9790 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d9f9c2dc161f08085a8f809e09afef40 = $(`<div id="html_d9f9c2dc161f08085a8f809e09afef40" style="width: 100.0%; height: 100.0%;">University of York: 87.5 %</div>`)[0];
+                popup_b979e12a49317c29c76230974e9a9790.setContent(html_d9f9c2dc161f08085a8f809e09afef40);
+            
+        
+
+        marker_4d8cc12783fd334b72c4ea72bfc19b5a.bindPopup(popup_b979e12a49317c29c76230974e9a9790)
+        ;
+
+        
+    
+    
+            var marker_91ef87f80d0f8c6db3e0a972a39b3842 = L.marker(
+                [51.524519, -0.134072],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_afac99671368a032966fefec75757623 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2d8f7b147414787a5e1a3bc56b0c1b05 = $(`<div id="html_2d8f7b147414787a5e1a3bc56b0c1b05" style="width: 100.0%; height: 100.0%;">University College London: 87.5 %</div>`)[0];
+                popup_afac99671368a032966fefec75757623.setContent(html_2d8f7b147414787a5e1a3bc56b0c1b05);
+            
+        
+
+        marker_91ef87f80d0f8c6db3e0a972a39b3842.bindPopup(popup_afac99671368a032966fefec75757623)
+        ;
+
+        
+    
+    
+            var marker_1d7638736dd09b9ff89a1f489af4abac = L.marker(
+                [60.172699, 24.950924],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_f1cf03f3f9a1eb5db9cff6b9641ac569 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_418e687e1c7a56287dc331c36d707072 = $(`<div id="html_418e687e1c7a56287dc331c36d707072" style="width: 100.0%; height: 100.0%;">University of Helsinki: 87.4 %</div>`)[0];
+                popup_f1cf03f3f9a1eb5db9cff6b9641ac569.setContent(html_418e687e1c7a56287dc331c36d707072);
+            
+        
+
+        marker_1d7638736dd09b9ff89a1f489af4abac.bindPopup(popup_f1cf03f3f9a1eb5db9cff6b9641ac569)
+        ;
+
+        
+    
+    
+            var marker_7c807cdf4c8d091e66a61ebf38e84911 = L.marker(
+                [51.756647, -1.254714],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_b5fe726d7da2ee738bbb515ae17aa15c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f2e1449184420efc805b6e11b729440d = $(`<div id="html_f2e1449184420efc805b6e11b729440d" style="width: 100.0%; height: 100.0%;">University of Oxford: 87.2 %</div>`)[0];
+                popup_b5fe726d7da2ee738bbb515ae17aa15c.setContent(html_f2e1449184420efc805b6e11b729440d);
+            
+        
+
+        marker_7c807cdf4c8d091e66a61ebf38e84911.bindPopup(popup_b5fe726d7da2ee738bbb515ae17aa15c)
+        ;
+
+        
+    
+    
+            var marker_7d75630605106a4b58319b3bb14d919d = L.marker(
+                [53.003, -2.273],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_d642d51db630abe5c885dc27eec94530 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_824a600e64231037fc6c0967c3285a07 = $(`<div id="html_824a600e64231037fc6c0967c3285a07" style="width: 100.0%; height: 100.0%;">Keele University: 87.0 %</div>`)[0];
+                popup_d642d51db630abe5c885dc27eec94530.setContent(html_824a600e64231037fc6c0967c3285a07);
+            
+        
+
+        marker_7d75630605106a4b58319b3bb14d919d.bindPopup(popup_d642d51db630abe5c885dc27eec94530)
+        ;
+
+        
+    
+    
+            var marker_e3b4c83f9e6e1ce35e39ca2fc5cc686b = L.marker(
+                [40.7625, -73.955556],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_52414202516d4f078ba74f1108f06be1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ab51dd2fe8882f4c61c1f5c11ed6fca3 = $(`<div id="html_ab51dd2fe8882f4c61c1f5c11ed6fca3" style="width: 100.0%; height: 100.0%;">Rockefeller University: 87.0 %</div>`)[0];
+                popup_52414202516d4f078ba74f1108f06be1.setContent(html_ab51dd2fe8882f4c61c1f5c11ed6fca3);
+            
+        
+
+        marker_e3b4c83f9e6e1ce35e39ca2fc5cc686b.bindPopup(popup_52414202516d4f078ba74f1108f06be1)
+        ;
+
+        
+    
+    
+            var marker_1ed6c26b84e2188d9c0503b1c86dc27e = L.marker(
+                [52.333744, 4.86572],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_d38cd05fe5629bf66dfa5c44fb4ea220 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3149bac410784ad86b7cb8f098c54f50 = $(`<div id="html_3149bac410784ad86b7cb8f098c54f50" style="width: 100.0%; height: 100.0%;">Vrije Universiteit Amsterdam: 87.0 %</div>`)[0];
+                popup_d38cd05fe5629bf66dfa5c44fb4ea220.setContent(html_3149bac410784ad86b7cb8f098c54f50);
+            
+        
+
+        marker_1ed6c26b84e2188d9c0503b1c86dc27e.bindPopup(popup_d38cd05fe5629bf66dfa5c44fb4ea220)
+        ;
+
+        
+    
+    
+            var marker_0978fd8cfd93dbf9e8ec7ba40ea189cb = L.marker(
+                [54.584446, -5.93406],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_39ea209a09997a463bce5527483b3fa1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_18b371e781855474835bac28a4f2b12f = $(`<div id="html_18b371e781855474835bac28a4f2b12f" style="width: 100.0%; height: 100.0%;">Queen's University Belfast: 86.7 %</div>`)[0];
+                popup_39ea209a09997a463bce5527483b3fa1.setContent(html_18b371e781855474835bac28a4f2b12f);
+            
+        
+
+        marker_0978fd8cfd93dbf9e8ec7ba40ea189cb.bindPopup(popup_39ea209a09997a463bce5527483b3fa1)
+        ;
+
+        
+    
+    
+            var marker_471b98e1518707821a58b413dc1cc48f = L.marker(
+                [62.236537, 25.731633],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_d5f936a6107b8caa5569388e4506a166 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a9812a40a07be1e21e33395fa7968c9b = $(`<div id="html_a9812a40a07be1e21e33395fa7968c9b" style="width: 100.0%; height: 100.0%;">University of Jyväskylä: 86.4 %</div>`)[0];
+                popup_d5f936a6107b8caa5569388e4506a166.setContent(html_a9812a40a07be1e21e33395fa7968c9b);
+            
+        
+
+        marker_471b98e1518707821a58b413dc1cc48f.bindPopup(popup_d5f936a6107b8caa5569388e4506a166)
+        ;
+
+        
+    
+    
+            var marker_a13ae4c3971eab525b6d4f82bed8ceb9 = L.marker(
+                [51.4269248212883, -0.173913287794645],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_06c2f43360b3022a5e166b0895795a82 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5de664e56bd4f7658cfe5c2a6d4be4ff = $(`<div id="html_5de664e56bd4f7658cfe5c2a6d4be4ff" style="width: 100.0%; height: 100.0%;">St George's, University of London: 86.3 %</div>`)[0];
+                popup_06c2f43360b3022a5e166b0895795a82.setContent(html_5de664e56bd4f7658cfe5c2a6d4be4ff);
+            
+        
+
+        marker_a13ae4c3971eab525b6d4f82bed8ceb9.bindPopup(popup_06c2f43360b3022a5e166b0895795a82)
+        ;
+
+        
+    
+    
+            var marker_de8684d54b705a58cf632d02e7373edc = L.marker(
+                [51.514401, -0.117398],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_a5880c12e38258c4826887a44f4e6374 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1883e5c1d14dcf1376c047d3d5366c09 = $(`<div id="html_1883e5c1d14dcf1376c047d3d5366c09" style="width: 100.0%; height: 100.0%;">London School of Economics and Political Science: 86.1 %</div>`)[0];
+                popup_a5880c12e38258c4826887a44f4e6374.setContent(html_1883e5c1d14dcf1376c047d3d5366c09);
+            
+        
+
+        marker_de8684d54b705a58cf632d02e7373edc.bindPopup(popup_a5880c12e38258c4826887a44f4e6374)
+        ;
+
+        
+    
+    
+            var marker_dc1ba22edda8734a25f5c89f632cfe77 = L.marker(
+                [50.737049, -3.535298],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_e159c17d46d45b0ca7a65d6440bd1883 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f7f29bf46246483f84939142a792d007 = $(`<div id="html_f7f29bf46246483f84939142a792d007" style="width: 100.0%; height: 100.0%;">University of Exeter: 85.9 %</div>`)[0];
+                popup_e159c17d46d45b0ca7a65d6440bd1883.setContent(html_f7f29bf46246483f84939142a792d007);
+            
+        
+
+        marker_dc1ba22edda8734a25f5c89f632cfe77.bindPopup(popup_e159c17d46d45b0ca7a65d6440bd1883)
+        ;
+
+        
+    
+    
+            var marker_3eeba27eef25d0d194be67d1e3de7910 = L.marker(
+                [50.374428, -4.140524],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_5bd8d091ce11f7929c59c8625e278c5e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5da2dd13f2f10d6cbea53285bffc0ce5 = $(`<div id="html_5da2dd13f2f10d6cbea53285bffc0ce5" style="width: 100.0%; height: 100.0%;">University of Plymouth: 85.8 %</div>`)[0];
+                popup_5bd8d091ce11f7929c59c8625e278c5e.setContent(html_5da2dd13f2f10d6cbea53285bffc0ce5);
+            
+        
+
+        marker_3eeba27eef25d0d194be67d1e3de7910.bindPopup(popup_5bd8d091ce11f7929c59c8625e278c5e)
+        ;
+
+        
+    
+    
+            var marker_6dbffb06006118961061ccfcf576b7c3 = L.marker(
+                [54.603828, -5.929357],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_2fa8e25de9ed9a881e8e5b089c176a0e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0fa8d2309efe7c2571be00fb8d36a5e1 = $(`<div id="html_0fa8d2309efe7c2571be00fb8d36a5e1" style="width: 100.0%; height: 100.0%;">University of Ulster: 85.7 %</div>`)[0];
+                popup_2fa8e25de9ed9a881e8e5b089c176a0e.setContent(html_0fa8d2309efe7c2571be00fb8d36a5e1);
+            
+        
+
+        marker_6dbffb06006118961061ccfcf576b7c3.bindPopup(popup_2fa8e25de9ed9a881e8e5b089c176a0e)
+        ;
+
+        
+    
+    
+            var marker_4044af4ec6ac8c9d6ec6106425e02289 = L.marker(
+                [65.059309, 25.466272],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_e403d24b05c6e3d73a6adb4c90806534 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_65fd384bfa13cacb3637481a1a872b98 = $(`<div id="html_65fd384bfa13cacb3637481a1a872b98" style="width: 100.0%; height: 100.0%;">University of Oulu: 85.5 %</div>`)[0];
+                popup_e403d24b05c6e3d73a6adb4c90806534.setContent(html_65fd384bfa13cacb3637481a1a872b98);
+            
+        
+
+        marker_4044af4ec6ac8c9d6ec6106425e02289.bindPopup(popup_e403d24b05c6e3d73a6adb4c90806534)
+        ;
+
+        
+    
+    
+            var marker_72099831693da13c2be69e5caaaa7f75 = L.marker(
+                [53.380954, -1.488033],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_765b19ae5c393d04664d3d43674e6983 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0839606ed77eac6a1d406ae167f63165 = $(`<div id="html_0839606ed77eac6a1d406ae167f63165" style="width: 100.0%; height: 100.0%;">The University of Sheffield: 85.5 %</div>`)[0];
+                popup_765b19ae5c393d04664d3d43674e6983.setContent(html_0839606ed77eac6a1d406ae167f63165);
+            
+        
+
+        marker_72099831693da13c2be69e5caaaa7f75.bindPopup(popup_765b19ae5c393d04664d3d43674e6983)
+        ;
+
+        
+    
+    
+            var marker_fa77cac77eb5562a6f9effc8822e5815 = L.marker(
+                [50.847035, 5.686007],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_17b6364a41e21b027c49a66dd3cd47b8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_568e38a200733fbbc06f30b99118e751 = $(`<div id="html_568e38a200733fbbc06f30b99118e751" style="width: 100.0%; height: 100.0%;">Maastricht University: 85.4 %</div>`)[0];
+                popup_17b6364a41e21b027c49a66dd3cd47b8.setContent(html_568e38a200733fbbc06f30b99118e751);
+            
+        
+
+        marker_fa77cac77eb5562a6f9effc8822e5815.bindPopup(popup_17b6364a41e21b027c49a66dd3cd47b8)
+        ;
+
+        
+    
+    
+            var marker_2e3147c52447cfabbf36de13dc69f564 = L.marker(
+                [52.486, -1.8895],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_92ab5d48fbf71cb05778f6a1b094c0a2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_208aa4bb61242dffcf6e9ac0f4f77f20 = $(`<div id="html_208aa4bb61242dffcf6e9ac0f4f77f20" style="width: 100.0%; height: 100.0%;">Aston University: 85.4 %</div>`)[0];
+                popup_92ab5d48fbf71cb05778f6a1b094c0a2.setContent(html_208aa4bb61242dffcf6e9ac0f4f77f20);
+            
+        
+
+        marker_2e3147c52447cfabbf36de13dc69f564.bindPopup(popup_92ab5d48fbf71cb05778f6a1b094c0a2)
+        ;
+
+        
+    
+    
+            var marker_562ee3ba16c47816644ea205cce65321 = L.marker(
+                [51.877726, 0.946842],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_144e4d1b32b95d0f386e9bb3c4176dea = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9f7e4a272e7ebadb45e751d902896011 = $(`<div id="html_9f7e4a272e7ebadb45e751d902896011" style="width: 100.0%; height: 100.0%;">University of Essex: 85.3 %</div>`)[0];
+                popup_144e4d1b32b95d0f386e9bb3c4176dea.setContent(html_9f7e4a272e7ebadb45e751d902896011);
+            
+        
+
+        marker_562ee3ba16c47816644ea205cce65321.bindPopup(popup_144e4d1b32b95d0f386e9bb3c4176dea)
+        ;
+
+        
+    
+    
+            var marker_c56b9fdf646269f56b23512fa207fd5b = L.marker(
+                [51.498795, -0.17489],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_c471d3adac445448353cc3cf640b0a8b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e9c93d8dd88a0874a35f6fa4e9c4fdc9 = $(`<div id="html_e9c93d8dd88a0874a35f6fa4e9c4fdc9" style="width: 100.0%; height: 100.0%;">Imperial College London: 85.2 %</div>`)[0];
+                popup_c471d3adac445448353cc3cf640b0a8b.setContent(html_e9c93d8dd88a0874a35f6fa4e9c4fdc9);
+            
+        
+
+        marker_c56b9fdf646269f56b23512fa207fd5b.bindPopup(popup_c471d3adac445448353cc3cf640b0a8b)
+        ;
+
+        
+    
+    
+            var marker_acafbde1dd45557b34791a54256ed359 = L.marker(
+                [50.867144, -0.087968],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_c02f2f4a6028769375fdacd4561b02e4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c6b1134c2c19a8a41c301d7dc6cfba5d = $(`<div id="html_c6b1134c2c19a8a41c301d7dc6cfba5d" style="width: 100.0%; height: 100.0%;">University of Sussex: 85.1 %</div>`)[0];
+                popup_c02f2f4a6028769375fdacd4561b02e4.setContent(html_c6b1134c2c19a8a41c301d7dc6cfba5d);
+            
+        
+
+        marker_acafbde1dd45557b34791a54256ed359.bindPopup(popup_c02f2f4a6028769375fdacd4561b02e4)
+        ;
+
+        
+    
+    
+            var marker_ac2a555cec22b347b9dbeafc800a5337 = L.marker(
+                [52.379272, -1.561481],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_61db14bd431616c66c87bf04b3d7e47b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_981e6bb093171fe32008a5e6bee5dff4 = $(`<div id="html_981e6bb093171fe32008a5e6bee5dff4" style="width: 100.0%; height: 100.0%;">The University of Warwick: 84.8 %</div>`)[0];
+                popup_61db14bd431616c66c87bf04b3d7e47b.setContent(html_981e6bb093171fe32008a5e6bee5dff4);
+            
+        
+
+        marker_ac2a555cec22b347b9dbeafc800a5337.bindPopup(popup_61db14bd431616c66c87bf04b3d7e47b)
+        ;
+
+        
+    
+    
+            var marker_09d8316ba5af05f640ec442803bfe414 = L.marker(
+                [51.91903, 4.525257],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_7e6a51520d0a29c982f30daef5deff42 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a6c397d0f3616e0bfc2e54aa8b02a6f1 = $(`<div id="html_a6c397d0f3616e0bfc2e54aa8b02a6f1" style="width: 100.0%; height: 100.0%;">Erasmus University Rotterdam: 84.4 %</div>`)[0];
+                popup_7e6a51520d0a29c982f30daef5deff42.setContent(html_a6c397d0f3616e0bfc2e54aa8b02a6f1);
+            
+        
+
+        marker_09d8316ba5af05f640ec442803bfe414.bindPopup(popup_7e6a51520d0a29c982f30daef5deff42)
+        ;
+
+        
+    
+    
+            var marker_7a9cf320342b14acaf3125858c8aba95 = L.marker(
+                [52.406654, -1.501672],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_6adb4de2799a4bb275dbcafacf2f1199 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ac7e80453f2786bc18e5e9827ba06fc8 = $(`<div id="html_ac7e80453f2786bc18e5e9827ba06fc8" style="width: 100.0%; height: 100.0%;">Coventry University: 84.1 %</div>`)[0];
+                popup_6adb4de2799a4bb275dbcafacf2f1199.setContent(html_ac7e80453f2786bc18e5e9827ba06fc8);
+            
+        
+
+        marker_7a9cf320342b14acaf3125858c8aba95.bindPopup(popup_6adb4de2799a4bb275dbcafacf2f1199)
+        ;
+
+        
+    
+    
+            var marker_183c60db12fadd8b99775624e0eb45ff = L.marker(
+                [52.355805, 4.955683],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_b59069dad98d0c7be2272caa437880e9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_99d963214205e36b16a338d2a6a5ffe4 = $(`<div id="html_99d963214205e36b16a338d2a6a5ffe4" style="width: 100.0%; height: 100.0%;">University of Amsterdam: 84.0 %</div>`)[0];
+                popup_b59069dad98d0c7be2272caa437880e9.setContent(html_99d963214205e36b16a338d2a6a5ffe4);
+            
+        
+
+        marker_183c60db12fadd8b99775624e0eb45ff.bindPopup(popup_b59069dad98d0c7be2272caa437880e9)
+        ;
+
+        
+    
+    
+            var marker_cf78d38bbdbd98890780b30549e19c31 = L.marker(
+                [52.090172, 5.12257],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_daf6c141c973383eed2a403ab04eb488 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_00d90e936efcc8d9b153f286be3f36c1 = $(`<div id="html_00d90e936efcc8d9b153f286be3f36c1" style="width: 100.0%; height: 100.0%;">Utrecht University: 84.0 %</div>`)[0];
+                popup_daf6c141c973383eed2a403ab04eb488.setContent(html_00d90e936efcc8d9b153f286be3f36c1);
+            
+        
+
+        marker_cf78d38bbdbd98890780b30549e19c31.bindPopup(popup_daf6c141c973383eed2a403ab04eb488)
+        ;
+
+        
+    
+    
+            var marker_8d82d318c1fd34e9d1458a24627c49e3 = L.marker(
+                [57.164719, -2.101483],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_5589d75efcc10c88fb9d95fdc3043be9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6e6a4af71819409f3e0da95df262460c = $(`<div id="html_6e6a4af71819409f3e0da95df262460c" style="width: 100.0%; height: 100.0%;">University of Aberdeen: 84.0 %</div>`)[0];
+                popup_5589d75efcc10c88fb9d95fdc3043be9.setContent(html_6e6a4af71819409f3e0da95df262460c);
+            
+        
+
+        marker_8d82d318c1fd34e9d1458a24627c49e3.bindPopup(popup_5589d75efcc10c88fb9d95fdc3043be9)
+        ;
+
+        
+    
+    
+            var marker_cd0cb6dfbc6cc5f2b2f8317508e8c029 = L.marker(
+                [52.204293, 0.114812],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_7e0c6e292381d1a351ad0f6b22fba789 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f4a1d83e0559ba0bb42b81b8960391af = $(`<div id="html_f4a1d83e0559ba0bb42b81b8960391af" style="width: 100.0%; height: 100.0%;">University of Cambridge: 83.9 %</div>`)[0];
+                popup_7e0c6e292381d1a351ad0f6b22fba789.setContent(html_f4a1d83e0559ba0bb42b81b8960391af);
+            
+        
+
+        marker_cd0cb6dfbc6cc5f2b2f8317508e8c029.bindPopup(popup_7e0c6e292381d1a351ad0f6b22fba789)
+        ;
+
+        
+    
+    
+            var marker_27e93769d21e7dd470641339ef50ee38 = L.marker(
+                [55.78558, 12.521392],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_7e1329216c30ced413acb7049730b43e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_df93877aa14b72ebaea00f80f5ef9a24 = $(`<div id="html_df93877aa14b72ebaea00f80f5ef9a24" style="width: 100.0%; height: 100.0%;">Technical University of Denmark: 83.8 %</div>`)[0];
+                popup_7e1329216c30ced413acb7049730b43e.setContent(html_df93877aa14b72ebaea00f80f5ef9a24);
+            
+        
+
+        marker_27e93769d21e7dd470641339ef50ee38.bindPopup(popup_7e1329216c30ced413acb7049730b43e)
+        ;
+
+        
+    
+    
+            var marker_35dfc8cd057805bdb44b68df0268e367 = L.marker(
+                [34.137693, -118.125333],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_ebcdc3ea330ae033b55cc29ee23217c7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2b9bbc1240e1cdcad5e53118528f294c = $(`<div id="html_2b9bbc1240e1cdcad5e53118528f294c" style="width: 100.0%; height: 100.0%;">California Institute of Technology: 83.7 %</div>`)[0];
+                popup_ebcdc3ea330ae033b55cc29ee23217c7.setContent(html_2b9bbc1240e1cdcad5e53118528f294c);
+            
+        
+
+        marker_35dfc8cd057805bdb44b68df0268e367.bindPopup(popup_ebcdc3ea330ae033b55cc29ee23217c7)
+        ;
+
+        
+    
+    
+            var marker_8e41a588e7bc03a63f14532c11d6cbf8 = L.marker(
+                [51.52406, -0.040364],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_567ede5214171708ece615b15f761499 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4c946de99a5ce960470372df2e35aacd = $(`<div id="html_4c946de99a5ce960470372df2e35aacd" style="width: 100.0%; height: 100.0%;">Queen Mary University of London: 83.5 %</div>`)[0];
+                popup_567ede5214171708ece615b15f761499.setContent(html_4c946de99a5ce960470372df2e35aacd);
+            
+        
+
+        marker_8e41a588e7bc03a63f14532c11d6cbf8.bindPopup(popup_567ede5214171708ece615b15f761499)
+        ;
+
+        
+    
+    
+            var marker_aeaf98c9fb0bc6d56b24790016574504 = L.marker(
+                [59.939959, 10.721685],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_9aca03ffb5010bc43c8d1cb774bc5908 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4383dacdf0f30c96223500418b70f1a3 = $(`<div id="html_4383dacdf0f30c96223500418b70f1a3" style="width: 100.0%; height: 100.0%;">University of Oslo: 83.3 %</div>`)[0];
+                popup_9aca03ffb5010bc43c8d1cb774bc5908.setContent(html_4383dacdf0f30c96223500418b70f1a3);
+            
+        
+
+        marker_aeaf98c9fb0bc6d56b24790016574504.bindPopup(popup_9aca03ffb5010bc43c8d1cb774bc5908)
+        ;
+
+        
+    
+    
+            var marker_73c30dd45726793347f2b1ce69438942 = L.marker(
+                [53.771489, -0.367402],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_4568c441f3bae51d2da1994f08b37081 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7a6223055406d45a61e1ad66e1f709c4 = $(`<div id="html_7a6223055406d45a61e1ad66e1f709c4" style="width: 100.0%; height: 100.0%;">University of Hull: 83.2 %</div>`)[0];
+                popup_4568c441f3bae51d2da1994f08b37081.setContent(html_7a6223055406d45a61e1ad66e1f709c4);
+            
+        
+
+        marker_73c30dd45726793347f2b1ce69438942.bindPopup(popup_4568c441f3bae51d2da1994f08b37081)
+        ;
+
+        
+    
+    
+            var marker_861d4f4bfe01305c41d26e9523af84c5 = L.marker(
+                [51.44859, 5.490768],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_2c0d79fea68c2bdf7e3697167ae8516c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_72570008c89952918df4f489efce849e = $(`<div id="html_72570008c89952918df4f489efce849e" style="width: 100.0%; height: 100.0%;">Eindhoven University of Technology: 82.9 %</div>`)[0];
+                popup_2c0d79fea68c2bdf7e3697167ae8516c.setContent(html_72570008c89952918df4f489efce849e);
+            
+        
+
+        marker_861d4f4bfe01305c41d26e9523af84c5.bindPopup(popup_2c0d79fea68c2bdf7e3697167ae8516c)
+        ;
+
+        
+    
+    
+            var marker_5f3e3e177f4bfc75e5d52fdf9fee7d17 = L.marker(
+                [51.819335, 5.856813],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_2e464a957274d3fed931c97e65ff71eb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8c2bf8a072bdb85716829e65c6fbde35 = $(`<div id="html_8c2bf8a072bdb85716829e65c6fbde35" style="width: 100.0%; height: 100.0%;">Radboud University: 82.9 %</div>`)[0];
+                popup_2e464a957274d3fed931c97e65ff71eb.setContent(html_8c2bf8a072bdb85716829e65c6fbde35);
+            
+        
+
+        marker_5f3e3e177f4bfc75e5d52fdf9fee7d17.bindPopup(popup_2e464a957274d3fed931c97e65ff71eb)
+        ;
+
+        
+    
+    
+            var marker_73ba0f68eaebae633a494afaeb274aa5 = L.marker(
+                [52.450817, -1.930556],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_1e2e78a0a5f8eb6fc4f2b7c85b529596 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_90340c9ea081f7f36ed569926ce0f603 = $(`<div id="html_90340c9ea081f7f36ed569926ce0f603" style="width: 100.0%; height: 100.0%;">University of Birmingham: 82.9 %</div>`)[0];
+                popup_1e2e78a0a5f8eb6fc4f2b7c85b529596.setContent(html_90340c9ea081f7f36ed569926ce0f603);
+            
+        
+
+        marker_73ba0f68eaebae633a494afaeb274aa5.bindPopup(popup_1e2e78a0a5f8eb6fc4f2b7c85b529596)
+        ;
+
+        
+    
+    
+            var marker_9f184a9067902e1d134ec03bb5b25b84 = L.marker(
+                [48.85493, 2.337804],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_4bc2e8c4f614f51184c267ab9ec7e0fb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_eba411e46148a4203a79abfedbb814a3 = $(`<div id="html_eba411e46148a4203a79abfedbb814a3" style="width: 100.0%; height: 100.0%;">Université PSL: 82.9 %</div>`)[0];
+                popup_4bc2e8c4f614f51184c267ab9ec7e0fb.setContent(html_eba411e46148a4203a79abfedbb814a3);
+            
+        
+
+        marker_9f184a9067902e1d134ec03bb5b25b84.bindPopup(popup_4bc2e8c4f614f51184c267ab9ec7e0fb)
+        ;
+
+        
+    
+    
+            var marker_4871d4a45257854f4d78994ef58d46ee = L.marker(
+                [60.186696, 24.827543],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_12294dc1b1534207e7b64758805f3c38 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7705715dc4980de6645eee5e91be4914 = $(`<div id="html_7705715dc4980de6645eee5e91be4914" style="width: 100.0%; height: 100.0%;">Aalto University: 82.7 %</div>`)[0];
+                popup_12294dc1b1534207e7b64758805f3c38.setContent(html_7705715dc4980de6645eee5e91be4914);
+            
+        
+
+        marker_4871d4a45257854f4d78994ef58d46ee.bindPopup(popup_12294dc1b1534207e7b64758805f3c38)
+        ;
+
+        
+    
+    
+            var marker_c0e47ebeb7c0e4f79b848e78aaa095be = L.marker(
+                [52.621172, -1.124665],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_b15fa39eb85332a32662f2d6cc779f9d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c19b77c1c24f5e4442f029626da57a50 = $(`<div id="html_c19b77c1c24f5e4442f029626da57a50" style="width: 100.0%; height: 100.0%;">University of Leicester: 82.7 %</div>`)[0];
+                popup_b15fa39eb85332a32662f2d6cc779f9d.setContent(html_c19b77c1c24f5e4442f029626da57a50);
+            
+        
+
+        marker_c0e47ebeb7c0e4f79b848e78aaa095be.bindPopup(popup_b15fa39eb85332a32662f2d6cc779f9d)
+        ;
+
+        
+    
+    
+            var marker_ab08019a5617f678f0fc24c571bc1a09 = L.marker(
+                [46.806436, 7.151909],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_8110e049bc8cf36ae443a751f1dd8341 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ddb909aea51ceebdeb78521d4872bb62 = $(`<div id="html_ddb909aea51ceebdeb78521d4872bb62" style="width: 100.0%; height: 100.0%;">University of Fribourg: 82.4 %</div>`)[0];
+                popup_8110e049bc8cf36ae443a751f1dd8341.setContent(html_ddb909aea51ceebdeb78521d4872bb62);
+            
+        
+
+        marker_ab08019a5617f678f0fc24c571bc1a09.bindPopup(popup_8110e049bc8cf36ae443a751f1dd8341)
+        ;
+
+        
+    
+    
+            var marker_d79352f67111767209074d7baf398b53 = L.marker(
+                [53.466863, -2.234012],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_aee3fb4467516d26081922a17f4e546d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4d5c59048266378c859cc506a156db7c = $(`<div id="html_4d5c59048266378c859cc506a156db7c" style="width: 100.0%; height: 100.0%;">The University of Manchester: 82.4 %</div>`)[0];
+                popup_aee3fb4467516d26081922a17f4e546d.setContent(html_4d5c59048266378c859cc506a156db7c);
+            
+        
+
+        marker_d79352f67111767209074d7baf398b53.bindPopup(popup_aee3fb4467516d26081922a17f4e546d)
+        ;
+
+        
+    
+    
+            var marker_01cd58f51bc4da170460abc88223b2a8 = L.marker(
+                [52.000737, 4.371336],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_0b3994cc969ec0bf3b62f2b698d04a22 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1f7df2925867c8e79d7878f4e908697b = $(`<div id="html_1f7df2925867c8e79d7878f4e908697b" style="width: 100.0%; height: 100.0%;">Delft University of Technology: 81.8 %</div>`)[0];
+                popup_0b3994cc969ec0bf3b62f2b698d04a22.setContent(html_1f7df2925867c8e79d7878f4e908697b);
+            
+        
+
+        marker_01cd58f51bc4da170460abc88223b2a8.bindPopup(popup_0b3994cc969ec0bf3b62f2b698d04a22)
+        ;
+
+        
+    
+    
+            var marker_65dfdbad8922509d3df28af2aaf18993 = L.marker(
+                [48.851123, 2.341122],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_2843ebf5952c2806c7833829089579c2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_48d8d2c25a9f6199e290e0abd27802be = $(`<div id="html_48d8d2c25a9f6199e290e0abd27802be" style="width: 100.0%; height: 100.0%;">Sorbonne University: 81.8 %</div>`)[0];
+                popup_2843ebf5952c2806c7833829089579c2.setContent(html_48d8d2c25a9f6199e290e0abd27802be);
+            
+        
+
+        marker_65dfdbad8922509d3df28af2aaf18993.bindPopup(popup_2843ebf5952c2806c7833829089579c2)
+        ;
+
+        
+    
+    
+            var marker_4ce4d5e4f831d550e7adc61ead3706b7 = L.marker(
+                [48.255278, 16.431389],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_2b3c656ae0cbd304aa7df47e4d82a1bb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6e8fc2045bb7b3a7ada5bc033ab8d67d = $(`<div id="html_6e8fc2045bb7b3a7ada5bc033ab8d67d" style="width: 100.0%; height: 100.0%;">University of Veterinary Medicine Vienna: 81.7 %</div>`)[0];
+                popup_2b3c656ae0cbd304aa7df47e4d82a1bb.setContent(html_6e8fc2045bb7b3a7ada5bc033ab8d67d);
+            
+        
+
+        marker_4ce4d5e4f831d550e7adc61ead3706b7.bindPopup(popup_2b3c656ae0cbd304aa7df47e4d82a1bb)
+        ;
+
+        
+    
+    
+            var marker_04de8156b26e4c6ac0dbd3c123e5f22c = L.marker(
+                [51.511533, -0.116029],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_678491f27db07bfcc057469b3282640c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9bfece17dcdfdacbb80e904feb875a7d = $(`<div id="html_9bfece17dcdfdacbb80e904feb875a7d" style="width: 100.0%; height: 100.0%;">King's College London: 81.5 %</div>`)[0];
+                popup_678491f27db07bfcc057469b3282640c.setContent(html_9bfece17dcdfdacbb80e904feb875a7d);
+            
+        
+
+        marker_04de8156b26e4c6ac0dbd3c123e5f22c.bindPopup(popup_678491f27db07bfcc057469b3282640c)
+        ;
+
+        
+    
+    
+            var marker_fe97d6f032356dc364cb37449aad411d = L.marker(
+                [43.555463, 1.503883],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_7e1301bd522291bfef6fae9b171682a1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f63e37d1037920d406809aea32e9ffc6 = $(`<div id="html_f63e37d1037920d406809aea32e9ffc6" style="width: 100.0%; height: 100.0%;">Institut National Polytechnique de Toulouse: 81.4 %</div>`)[0];
+                popup_7e1301bd522291bfef6fae9b171682a1.setContent(html_f63e37d1037920d406809aea32e9ffc6);
+            
+        
+
+        marker_fe97d6f032356dc364cb37449aad411d.bindPopup(popup_7e1301bd522291bfef6fae9b171682a1)
+        ;
+
+        
+    
+    
+            var marker_e8a190abe954fb8803ee9ecf44b14b3d = L.marker(
+                [22.309475, 39.104665],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_7c7c206a5d8b734f434c41cfc749c628 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ff8d3a8547eb6d74692f1da2c53cc1e9 = $(`<div id="html_ff8d3a8547eb6d74692f1da2c53cc1e9" style="width: 100.0%; height: 100.0%;">King Abdullah University of Science and Technology: 81.2 %</div>`)[0];
+                popup_7c7c206a5d8b734f434c41cfc749c628.setContent(html_ff8d3a8547eb6d74692f1da2c53cc1e9);
+            
+        
+
+        marker_e8a190abe954fb8803ee9ecf44b14b3d.bindPopup(popup_7c7c206a5d8b734f434c41cfc749c628)
+        ;
+
+        
+    
+    
+            var marker_fa19bff86e144c3882bf3fbc1e4caabf = L.marker(
+                [59.362731, 18.058856],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_0765b9df3f8d8bfecf4696b88de13187 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b87b8aca0a0713ee51dfcd44fbde1aa5 = $(`<div id="html_b87b8aca0a0713ee51dfcd44fbde1aa5" style="width: 100.0%; height: 100.0%;">Stockholm University: 81.2 %</div>`)[0];
+                popup_0765b9df3f8d8bfecf4696b88de13187.setContent(html_b87b8aca0a0713ee51dfcd44fbde1aa5);
+            
+        
+
+        marker_fa19bff86e144c3882bf3fbc1e4caabf.bindPopup(popup_0765b9df3f8d8bfecf4696b88de13187)
+        ;
+
+        
+    
+    
+            var marker_d3848667a8b4bf04dff78954172a16c2 = L.marker(
+                [43.560538, 1.468681],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_7afdfd289423010141106a2462bcb2ba = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_83fd7121c679f542819f931fb82ba3db = $(`<div id="html_83fd7121c679f542819f931fb82ba3db" style="width: 100.0%; height: 100.0%;">Université Toulouse III - Paul Sabatier: 81.2 %</div>`)[0];
+                popup_7afdfd289423010141106a2462bcb2ba.setContent(html_83fd7121c679f542819f931fb82ba3db);
+            
+        
+
+        marker_d3848667a8b4bf04dff78954172a16c2.bindPopup(popup_7afdfd289423010141106a2462bcb2ba)
+        ;
+
+        
+    
+    
+            var marker_389ba691922b8e5e6b8e11aaeff63dae = L.marker(
+                [46.250074, 20.146173],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_2f086a4bf4d3b65baecb7e3414f85933 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6496a5a26f7dc5332c1f02e0d05bf347 = $(`<div id="html_6496a5a26f7dc5332c1f02e0d05bf347" style="width: 100.0%; height: 100.0%;">University of Szeged: 81.1 %</div>`)[0];
+                popup_2f086a4bf4d3b65baecb7e3414f85933.setContent(html_6496a5a26f7dc5332c1f02e0d05bf347);
+            
+        
+
+        marker_389ba691922b8e5e6b8e11aaeff63dae.bindPopup(popup_2f086a4bf4d3b65baecb7e3414f85933)
+        ;
+
+        
+    
+    
+            var marker_fa43f3531a243ee2936b93a40c2dcdb0 = L.marker(
+                [48.799853, 2.141554],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_b5976a20b0bf599bb6645b4fea6bc7ec = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e8e77e6061182c0b87b9f29afc0e176e = $(`<div id="html_e8e77e6061182c0b87b9f29afc0e176e" style="width: 100.0%; height: 100.0%;">Université de Versailles Saint-Quentin-en-Yvelines: 81.0 %</div>`)[0];
+                popup_b5976a20b0bf599bb6645b4fea6bc7ec.setContent(html_e8e77e6061182c0b87b9f29afc0e176e);
+            
+        
+
+        marker_fa43f3531a243ee2936b93a40c2dcdb0.bindPopup(popup_b5976a20b0bf599bb6645b4fea6bc7ec)
+        ;
+
+        
+    
+    
+            var marker_ef3c6b25a704b5b5c0dd81f44ac1306a = L.marker(
+                [48.1157576736772, -1.67311181916665],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_fdc9511330dfd3897fe537cedd0c2301 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_32edeb854fa08465d4b37ec76f4a4261 = $(`<div id="html_32edeb854fa08465d4b37ec76f4a4261" style="width: 100.0%; height: 100.0%;">Université de Rennes (EPE): 81.0 %</div>`)[0];
+                popup_fdc9511330dfd3897fe537cedd0c2301.setContent(html_32edeb854fa08465d4b37ec76f4a4261);
+            
+        
+
+        marker_ef3c6b25a704b5b5c0dd81f44ac1306a.bindPopup(popup_fdc9511330dfd3897fe537cedd0c2301)
+        ;
+
+        
+    
+    
+            var marker_5c97f24d9b77705d18cb4c6deb2c35fc = L.marker(
+                [42.360091, -71.094267],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_628486603a02d50a52dc478087ad3822 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4fad7ad8d507c8dd5bb25317bfb62976 = $(`<div id="html_4fad7ad8d507c8dd5bb25317bfb62976" style="width: 100.0%; height: 100.0%;">Massachusetts Institute of Technology: 81.0 %</div>`)[0];
+                popup_628486603a02d50a52dc478087ad3822.setContent(html_4fad7ad8d507c8dd5bb25317bfb62976);
+            
+        
+
+        marker_5c97f24d9b77705d18cb4c6deb2c35fc.bindPopup(popup_628486603a02d50a52dc478087ad3822)
+        ;
+
+        
+    
+    
+            var marker_6b9316bbafdf496c68a1f26ad68c2b26 = L.marker(
+                [43.292179, 5.359142],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_7c1ec2840c1590dd088e1721ec634f2d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_dc1f0e4695db0418f02aa707ae06b8bd = $(`<div id="html_dc1f0e4695db0418f02aa707ae06b8bd" style="width: 100.0%; height: 100.0%;">Aix-Marseille University: 80.9 %</div>`)[0];
+                popup_7c1ec2840c1590dd088e1721ec634f2d.setContent(html_dc1f0e4695db0418f02aa707ae06b8bd);
+            
+        
+
+        marker_6b9316bbafdf496c68a1f26ad68c2b26.bindPopup(popup_7c1ec2840c1590dd088e1721ec634f2d)
+        ;
+
+        
+    
+    
+            var marker_a4bd311f24441d6b96756c7c55a160d1 = L.marker(
+                [63.821618, 20.311664],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_30d8119715d16ce25a6e4cd22113b3fd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0af3bae90b31aac6af57e8bc55457959 = $(`<div id="html_0af3bae90b31aac6af57e8bc55457959" style="width: 100.0%; height: 100.0%;">Umeå University: 80.5 %</div>`)[0];
+                popup_30d8119715d16ce25a6e4cd22113b3fd.setContent(html_0af3bae90b31aac6af57e8bc55457959);
+            
+        
+
+        marker_a4bd311f24441d6b96756c7c55a160d1.bindPopup(popup_30d8119715d16ce25a6e4cd22113b3fd)
+        ;
+
+        
+    
+    
+            var marker_54fece37f94e12c87f2d49dfdf8e2d92 = L.marker(
+                [48.714541, 2.211309],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_e34c4434e9cb76dccad8d7e76563bbfd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7211685fc552ed87a7d8b2b7430b3fb4 = $(`<div id="html_7211685fc552ed87a7d8b2b7430b3fb4" style="width: 100.0%; height: 100.0%;">Institut Polytechnique de Paris (EPE): 80.4 %</div>`)[0];
+                popup_e34c4434e9cb76dccad8d7e76563bbfd.setContent(html_7211685fc552ed87a7d8b2b7430b3fb4);
+            
+        
+
+        marker_54fece37f94e12c87f2d49dfdf8e2d92.bindPopup(popup_e34c4434e9cb76dccad8d7e76563bbfd)
+        ;
+
+        
+    
+    
+            var marker_6636dd81c9d7aeef0409396e252e2a51 = L.marker(
+                [50.877948, 4.700274],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_484aa41cc8f0cbcfaa4fa1bcaec7646a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_35f8a2b2e7f2dbdba5c0da30849c8ad0 = $(`<div id="html_35f8a2b2e7f2dbdba5c0da30849c8ad0" style="width: 100.0%; height: 100.0%;">Katholieke Universiteit Leuven: 80.2 %</div>`)[0];
+                popup_484aa41cc8f0cbcfaa4fa1bcaec7646a.setContent(html_35f8a2b2e7f2dbdba5c0da30849c8ad0);
+            
+        
+
+        marker_6636dd81c9d7aeef0409396e252e2a51.bindPopup(popup_484aa41cc8f0cbcfaa4fa1bcaec7646a)
+        ;
+
+        
+    
+    
+            var marker_7ce13c371998c92dab0ebf6da1de8713 = L.marker(
+                [51.532729, -0.475191],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_9ac6e34a86461ce5862f00922adc1801 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_97b7ea84c0e65617158d88ad6cbad10f = $(`<div id="html_97b7ea84c0e65617158d88ad6cbad10f" style="width: 100.0%; height: 100.0%;">Brunel University London: 80.2 %</div>`)[0];
+                popup_9ac6e34a86461ce5862f00922adc1801.setContent(html_97b7ea84c0e65617158d88ad6cbad10f);
+            
+        
+
+        marker_7ce13c371998c92dab0ebf6da1de8713.bindPopup(popup_9ac6e34a86461ce5862f00922adc1801)
+        ;
+
+        
+    
+    
+            var marker_094bc5d1c6a42b4e499ec5fe22ea8f82 = L.marker(
+                [51.242762, -0.589697],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_044a53abbed09bc9bdb0fe49f0c3a72b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4d5ca45076d013db30b5d8f8b3c473fc = $(`<div id="html_4d5ca45076d013db30b5d8f8b3c473fc" style="width: 100.0%; height: 100.0%;">University of Surrey: 80.1 %</div>`)[0];
+                popup_044a53abbed09bc9bdb0fe49f0c3a72b.setContent(html_4d5ca45076d013db30b5d8f8b3c473fc);
+            
+        
+
+        marker_094bc5d1c6a42b4e499ec5fe22ea8f82.bindPopup(popup_044a53abbed09bc9bdb0fe49f0c3a72b)
+        ;
+
+        
+    
+    
+            var marker_719f8ba8b299838909db677dfa4d2e9e = L.marker(
+                [0.329199, 32.571161],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_c2b5c844bcbada662be1aee43f7dc299 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6113580bb492f3ecf358738008483e06 = $(`<div id="html_6113580bb492f3ecf358738008483e06" style="width: 100.0%; height: 100.0%;">Makerere University: 80.1 %</div>`)[0];
+                popup_c2b5c844bcbada662be1aee43f7dc299.setContent(html_6113580bb492f3ecf358738008483e06);
+            
+        
+
+        marker_719f8ba8b299838909db677dfa4d2e9e.bindPopup(popup_c2b5c844bcbada662be1aee43f7dc299)
+        ;
+
+        
+    
+    
+            var marker_2e1806c9a5126892d05219ca901d4add = L.marker(
+                [59.348148, 18.023572],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_2494ff8269ba008b40108973c0bf84e2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0ab5a638d2a43304f875063de1463123 = $(`<div id="html_0ab5a638d2a43304f875063de1463123" style="width: 100.0%; height: 100.0%;">Karolinska Institutet: 80.1 %</div>`)[0];
+                popup_2494ff8269ba008b40108973c0bf84e2.setContent(html_0ab5a638d2a43304f875063de1463123);
+            
+        
+
+        marker_2e1806c9a5126892d05219ca901d4add.bindPopup(popup_2494ff8269ba008b40108973c0bf84e2)
+        ;
+
+        
+    
+    
+            var marker_eed87a047b78b34676f09d67e284c250 = L.marker(
+                [51.984569, 5.665748],
+                {}
+            ).addTo(marker_cluster_dd33976839433baf5cab5d58cd33af9d);
+        
+    
+        var popup_935bc6466c44e38ee1e98b1019e26d76 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_eb92859792bfae164493e5b45d995118 = $(`<div id="html_eb92859792bfae164493e5b45d995118" style="width: 100.0%; height: 100.0%;">Wageningen University & Research: 80.0 %</div>`)[0];
+                popup_935bc6466c44e38ee1e98b1019e26d76.setContent(html_eb92859792bfae164493e5b45d995118);
+            
+        
+
+        marker_eed87a047b78b34676f09d67e284c250.bindPopup(popup_935bc6466c44e38ee1e98b1019e26d76)
+        ;
+
+        
+    
+    
+            marker_cluster_dd33976839433baf5cab5d58cd33af9d.addTo(map_09e4a0c4a76406cbf4c4c6608c0b9dfd);
+        
+</script>
+</html>
